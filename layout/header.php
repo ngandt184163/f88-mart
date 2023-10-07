@@ -10,7 +10,26 @@
         <link href="/css/carousel/owl.carousel.css" rel="stylesheet" type="text/css"/>
         <link href="/css/carousel/owl.theme.css" rel="stylesheet" type="text/css"/>
         <link href="/css/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+
         <link href="/style.css" rel="stylesheet" type="text/css"/>
+
+        <!-- STYLE CSS -->
+        <link href="css/import/fonts.css" rel="stylesheet" type="text/css"/>
+        <link href="css/import/global.css" rel="stylesheet" type="text/css"/>
+        <link href="css/import/header.css" rel="stylesheet" type="text/css"/>
+        <link href="css/import/footer.css" rel="stylesheet" type="text/css"/>
+        <link href="css/import/home.css" rel="stylesheet" type="text/css"/>
+        <link href="css/import/category_product.css" rel="stylesheet" type="text/css"/>
+        <link href="css/import/blog.css" rel="stylesheet" type="text/css"/>
+        <link href="css/import/detail_product.css" rel="stylesheet" type="text/css"/>
+        <link href="css/import/detail_blog.css" rel="stylesheet" type="text/css"/>
+        <link href="css/import/cart.css" rel="stylesheet" type="text/css"/>
+        <link href="css/import/checkout.css" rel="stylesheet" type="text/css"/>
+        <link href="css/import/info_account.css" rel="stylesheet" type="text/css"/>
+        <link href="css/import/list_cart_order.css" rel="stylesheet" type="text/css"/>
+        <link href="css/import/detail_order.css" rel="stylesheet" type="text/css"/>
+        <!-- ===================== -->
+
         <link href="/responsive.css" rel="stylesheet" type="text/css"/>
 
         <script src="/js/jquery-2.2.4.min.js" type="text/javascript"></script>
