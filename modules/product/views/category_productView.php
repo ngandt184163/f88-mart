@@ -83,7 +83,7 @@ get_header("", $data);
                         <?php
                         for($i = 1; $i <= $pagination['num_page']; $i++){
                             ?>
-                        <li <?php if($i == $pagination['page']) echo "class = 'active_page'"?>><a href="<?php echo $data['url']; ?>&page=<?php echo $i ?>"><?php echo $i ?></a></li>
+                        <li><a href="<?php echo $data['url']; ?>&page=<?php echo $i ?>" <?php if($i == $pagination['page']) echo "class = 'active_page'"; ?>><?php echo $i ?></a></li>
                             <?php
                         }
                         ?>
