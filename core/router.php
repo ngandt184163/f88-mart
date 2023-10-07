@@ -3,6 +3,24 @@
 
 $request_path = MODULESPATH . DIRECTORY_SEPARATOR . get_module() . DIRECTORY_SEPARATOR . 'controllers' . DIRECTORY_SEPARATOR . get_controller().'Controller.php';
 
+/*
+ * chuyển hướng đến admin
+ */
+// Lấy đường dẫn URL hiện tại
+$current_url = $_SERVER['REQUEST_URI'];
+
+// Tách đường dẫn URL thành các phần bằng dấu "/"
+$url_parts = explode('/', $current_url);
+
+// Lấy phần cuối cùng của đường dẫn (trong trường hợp này là "admin")
+$last_part = end($url_parts);
+
+// chuyển hướng
+if($last_part == 'admin') {
+    header("location: ./admin/index.php");
+}
+
+
 if (file_exists($request_path)) {
     require $request_path;
     $action_name = get_action().'Action';
