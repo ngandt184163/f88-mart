@@ -10,7 +10,7 @@
                     ?>
                     <li class="clearfix">
                         <a href="?mod=product&controller=index&action=detailProduct&product_id=<?php echo $item['product_id']; ?>" title="" class="thumb fl-left">
-                            <img src="public/images/<?php echo $item['image']; ?>" alt="">
+                            <img src="/images/<?php echo $item['image']; ?>" alt="">
                         </a>
                         <div class="info fl-right">
                             <a href="?mod=product&controller=index&action=detailProduct&product_id=<?php echo $item['product_id']; ?>" title="" class="product-name"><?php echo $item['name']; ?></a>
@@ -27,7 +27,7 @@
             ?>
             <!-- <li class="clearfix">
                 <a href="?mod=product&controller=index&action=detailProduct" title="" class="thumb fl-left">
-                    <img src="public/images/img-pro-13.png" alt="">
+                    <img src="/images/img-pro-13.png" alt="">
                 </a>
                 <div class="info fl-right">
                     <a href="?mod=product&controller=index&action=detailProduct" title="" class="product-name">Laptop Asus A540UP I5</a>
