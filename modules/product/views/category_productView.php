@@ -59,7 +59,7 @@ get_header("", $data);
                                     </div>
                                     <div class="action clearfix">
                                         <a href="#" title="Thêm giỏ hàng" class="add-cart fl-left" data-product-id="<?php echo $item['product_id']; ?>">Thêm giỏ hàng</a>
-                                        <a href="?mod=cart&controller=index&action=cart" title="Mua ngay" class="buy-now fl-right">Mua ngay</a>
+                                        <a href="?mod=product&controller=index&action=detailProduct&product_id=<?php echo $item['product_id']; ?>" title="Mua ngay" class="buy-now fl-right">Mua ngay</a>
                                     </div>
                                 </li>
                                 <?php

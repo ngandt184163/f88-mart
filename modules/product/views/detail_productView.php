@@ -109,8 +109,8 @@ get_header("", $data);
                                     <!-- <span class="old">20.900.000đ</span> -->
                                 </div>
                                 <div class="action clearfix">
-                                    <a href="?mod=cart&controller=index&action=addCart&product_id=<?php echo $item['product_id']; ?>" title="" class="add-cart fl-left">Thêm giỏ hàng</a>
-                                    <a href="?mod=cart&controller=index&action=cart" title="" class="buy-now fl-right">Mua ngay</a>
+                                    <a href="#" title="" class="add-cart fl-left" data-product-id="<?php echo $item['product_id']; ?>">Thêm giỏ hàng</a>
+                                    <a href="?mod=product&controller=index&action=detailProduct&product_id=<?php echo $item['product_id']; ?>" title="" class="buy-now fl-right">Mua ngay</a>
                                 </div>
                             </li>
                             <?php                
