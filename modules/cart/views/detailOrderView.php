@@ -68,7 +68,7 @@
                                 <td class="thead-text"><?php echo $index; ?></td>
                                 <td class="thead-text">
                                     <div class="thumb">
-                                        <img src="public/images/<?php echo $order['image']; ?>" alt="">
+                                        <img src="/images/<?php echo $order['image']; ?>" alt="">
                                     </div>
                                 </td>
                                 <td class="thead-text"><?php echo $order['name']; ?></td>

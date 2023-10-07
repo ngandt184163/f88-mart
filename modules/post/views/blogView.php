@@ -31,7 +31,7 @@ get_header("", $data);
                                 ?>
                                 <li class="clearfix">
                                     <a href="?mod=post&controller=index&action=detailBlog&post_id=<?php echo $item['post_id']; ?>" title="" class="thumb fl-left">
-                                        <img src="public/images/<?php echo $item['image']; ?>" alt="">
+                                        <img src="/images/<?php echo $item['image']; ?>" alt="">
                                     </a>
                                     <div class="info fl-right">
                                         <a href="?mod=post&controller=index&action=detailBlogpost_id=<?php echo $item['post_id']; ?>" title="" class="title"><?php echo $item['title']; ?></a>

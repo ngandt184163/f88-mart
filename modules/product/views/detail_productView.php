@@ -54,7 +54,7 @@ get_header("", $data);
                             </div>
                         </div>
                         <div class="thumb-respon-wp fl-left">
-                            <img src="public/images/img-pro-01.png" alt="">
+                            <img src="/images/img-pro-01.png" alt="">
                         </div>
                         <div class="info fl-right">
                             <h3 class="product-name"><?php echo $product['name']; ?></h3>
@@ -101,7 +101,7 @@ get_header("", $data);
                             ?>
                             <li>
                                 <a href="" title="" class="thumb">
-                                    <img src="public/images/<?php echo $item['image']; ?>">
+                                    <img src="/images/<?php echo $item['image']; ?>">
                                 </a>
                                 <a href="?mod=product&controller=index=action=detailProduct&product_id=<?php echo $item['product_id']; ?>" title="" class="product-name"><?php echo $item['name']; ?></a>
                                 <div class="price">

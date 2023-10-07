@@ -29,7 +29,7 @@ get_header("", $data);
                     <div class="section-detail">
                         <div class="detail">
                             <p style="text-align: center;">
-                                <img src="public/images/<?php echo $page['image']; ?>" alt="">
+                                <img src="/images/<?php echo $page['image']; ?>" alt="">
                             </p>
                             <?php echo $page['content']; ?>
                         </div>

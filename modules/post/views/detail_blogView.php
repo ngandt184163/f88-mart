@@ -30,7 +30,7 @@ get_header("", $data);
                         <span class="create-date"><?php echo $post['created_at']; ?></span>
                         <div class="detail">
                             <p style="text-align: center;">
-                                <img src="public/images/<?php echo $post['image']; ?>" alt="">
+                                <img src="/images/<?php echo $post['image']; ?>" alt="">
                             </p>
                             <?php echo $post['content']; ?>
                         </div>

@@ -50,7 +50,7 @@ get_header("", $data);
                                 ?>
                                 <li>
                                     <a href="?mod=product&controller=index&action=detailProduct&product_id=<?php echo $item['product_id']; ?>" title="" class="thumb">
-                                        <img src="public/images/<?php echo $item['image']; ?>">
+                                        <img src="/images/<?php echo $item['image']; ?>">
                                     </a>
                                     <a href="?mod=product&controller=index&action=detailProduct&product_id=<?php echo $item['product_id']; ?>" title="" class="product-name"><?php echo $item['name']; ?></a>
                                     <div class="price">

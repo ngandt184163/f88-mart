@@ -41,7 +41,7 @@ get_header();
                                     <td><?php echo $item['code']; ?></td>
                                     <td>
                                         <a href="?mod=product&controller=index&action=detailProduct&product_id=<?php echo $item['product_id']; ?>" title="" class="thumb">
-                                            <img src="public/images/<?php echo $item['image']; ?>" alt="">
+                                            <img src="/images/<?php echo $item['image']; ?>" alt="">
                                         </a>
                                     </td>
                                     <td>

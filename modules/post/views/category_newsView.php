@@ -26,7 +26,7 @@ get_header();
                     <ul class="list-item">
                         <li class="clearfix">
                             <a href="?page=detail_news" title="" class="thumb fl-left">
-                                <img src="public/images/img-post-01.png" alt="">
+                                <img src="/images/img-post-01.png" alt="">
                             </a>
                             <div class="info fl-right">
                                 <a href="?page=detail_news" title="" class="title">Hướng dẫn nuôi dạy trẻ khoa học</a>
@@ -36,7 +36,7 @@ get_header();
                         </li>
                         <li class="clearfix">
                             <a href="?page=detail_news" title="" class="thumb fl-left">
-                                <img src="public/images/img-post-02.png" alt="">
+                                <img src="/images/img-post-02.png" alt="">
                             </a>
                             <div class="info fl-right">
                                 <a href="?page=detail_news" title="" class="title">Hướng dẫn nuôi dạy trẻ khoa học</a>
@@ -46,7 +46,7 @@ get_header();
                         </li>
                         <li class="clearfix">
                             <a href="?page=detail_news" title="" class="thumb fl-left">
-                                <img src="public/images/img-post-01.png" alt="">
+                                <img src="/images/img-post-01.png" alt="">
                             </a>
                             <div class="info fl-right">
                                 <a href="?page=detail_news" title="" class="title">Hướng dẫn nuôi dạy trẻ khoa học</a>
@@ -56,7 +56,7 @@ get_header();
                         </li>
                         <li class="clearfix">
                             <a href="?page=detail_news" title="" class="thumb fl-left">
-                                <img src="public/images/img-post-02.png" alt="">
+                                <img src="/images/img-post-02.png" alt="">
                             </a>
                             <div class="info fl-right">
                                 <a href="?page=detail_news" title="" class="title">Hướng dẫn nuôi dạy trẻ khoa học</a>
@@ -66,7 +66,7 @@ get_header();
                         </li>
                         <li class="clearfix">
                             <a href="?page=detail_news" title="" class="thumb fl-left">
-                                <img src="public/images/img-post-01.png" alt="">
+                                <img src="/images/img-post-01.png" alt="">
                             </a>
                             <div class="info fl-right">
                                 <a href="?page=detail_news" title="" class="title">Hướng dẫn nuôi dạy trẻ khoa học</a>
@@ -76,7 +76,7 @@ get_header();
                         </li>
                         <li class="clearfix">
                             <a href="?page=detail_news" title="" class="thumb fl-left">
-                                <img src="public/images/img-post-02.png" alt="">
+                                <img src="/images/img-post-02.png" alt="">
                             </a>
                             <div class="info fl-right">
                                 <a href="?page=detail_news" title="" class="title">Hướng dẫn nuôi dạy trẻ khoa học</a>
@@ -86,7 +86,7 @@ get_header();
                         </li>
                         <li class="clearfix">
                             <a href="?page=detail_news" title="" class="thumb fl-left">
-                                <img src="public/images/img-post-01.png" alt="">
+                                <img src="/images/img-post-01.png" alt="">
                             </a>
                             <div class="info fl-right">
                                 <a href="?page=detail_news" title="" class="title">Hướng dẫn nuôi dạy trẻ khoa học</a>
@@ -96,7 +96,7 @@ get_header();
                         </li>
                         <li class="clearfix">
                             <a href="?page=detail_news" title="" class="thumb fl-left">
-                                <img src="public/images/img-post-02.png" alt="">
+                                <img src="/images/img-post-02.png" alt="">
                             </a>
                             <div class="info fl-right">
                                 <a href="?page=detail_news" title="" class="title">Hướng dẫn nuôi dạy trẻ khoa học</a>
@@ -159,7 +159,7 @@ get_header();
                     <ul class="list-item">
                         <li class="clearfix">
                             <a href="?page=detail_product" title="" class="thumb fl-left">
-                                <img src="public/images/img-pro-01.png" alt="">
+                                <img src="/images/img-pro-01.png" alt="">
                             </a>
                             <div class="info fl-right">
                                 <a href="?page=detail_product" title="" class="product-name">Bio-Lashes Serum dưỡng dài lông mi và lông mày</a>
@@ -172,7 +172,7 @@ get_header();
                         </li>
                         <li class="clearfix">
                             <a href="?page=detail_product" title="" class="thumb fl-left">
-                                <img src="public/images/img-pro-02.png" alt="">
+                                <img src="/images/img-pro-02.png" alt="">
                             </a>
                             <div class="info fl-right">
                                 <a href="?page=detail_product" title="" class="product-name">Bio-Lashes Serum dưỡng dài lông mi và lông mày</a>
@@ -185,7 +185,7 @@ get_header();
                         </li>
                         <li class="clearfix">
                             <a href="?page=detail_product" title="" class="thumb fl-left">
-                                <img src="public/images/img-pro-03.png" alt="">
+                                <img src="/images/img-pro-03.png" alt="">
                             </a>
                             <div class="info fl-right">
                                 <a href="?page=detail_product" title="" class="product-name">Bio-Lashes Serum dưỡng dài lông mi và lông mày</a>
@@ -198,7 +198,7 @@ get_header();
                         </li>
                         <li class="clearfix">
                             <a href="?page=detail_product" title="" class="thumb fl-left">
-                                <img src="public/images/img-pro-01.png" alt="">
+                                <img src="/images/img-pro-01.png" alt="">
                             </a>
                             <div class="info fl-right">
                                 <a href="?page=detail_product" title="" class="product-name">Bio-Lashes Serum dưỡng dài lông mi và lông mày</a>
@@ -211,7 +211,7 @@ get_header();
                         </li>
                         <li class="clearfix">
                             <a href="?page=detail_product" title="" class="thumb fl-left">
-                                <img src="public/images/img-pro-02.png" alt="">
+                                <img src="/images/img-pro-02.png" alt="">
                             </a>
                             <div class="info fl-right">
                                 <a href="?page=detail_product" title="" class="product-name">Bio-Lashes Serum dưỡng dài lông mi và lông mày</a>
