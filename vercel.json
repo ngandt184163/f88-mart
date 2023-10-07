@@ -2,7 +2,8 @@
   "version": 2,
   "builds": [
     { "src": "/api/index.php", "use": "vercel-php@0.6.0" },
-    { "src": "/public/**", "use": "@vercel/static" }
+    { "src": "/public/**", "use": "@vercel/static" },
+    { "src": "/admin/**", "use": "vercel-php@0.6.0" }
   ],
   "routes": [
     {
@@ -10,8 +11,12 @@
       "dest": "public/$1/$2"
     },
     {
+      "src": "/admin/(.*)",
+      "dest": "/admin/index.php"
+    },
+    {
       "src": "/(.*)",
-      "dest": "/api/index.php"
+      "dest": "/index.php"
     }
   ]
 }
