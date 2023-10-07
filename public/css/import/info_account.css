@@ -1,0 +1,47 @@
+/*ADD CAT*/
+.info-account-page label {
+  display: block;
+  padding-bottom: 10px;
+  font-family: "Roboto Medium";
+  font-weight: normal;
+}
+.info-account-page input[type="text"],
+.info-account-page input[type="tel"],
+.info-account-page input[type="email"],
+.info-account-page input[type="password"] {
+  display: block;
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  width: 35%;
+  margin-bottom: 15px;
+}
+.info-account-page textarea {
+  display: block;
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  width: 50%;
+  height: 150px;
+  margin-bottom: 25px;
+}
+.info-account-page select {
+  display: block;
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 25px;
+}
+.info-account-page button {
+  display: block;
+  border: none;
+  outline: none;
+  background: #4fa327;
+  color: #fff;
+  padding: 8px 20px;
+  margin-bottom: 50px;
+}
+.info-account-page button:hover {
+  background: #3a7d19;
+}
+.not-allowed {
+  cursor: not-allowed;
+  background: #f3f3f3;
+}

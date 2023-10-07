@@ -1,0 +1,30 @@
+.post-status li {
+  float: left;
+  font-size: 14px;
+  margin-right: 5px;
+}
+.post-status li .count {
+  color: #555d66;
+  font-size: 13px;
+  display: inline-block;
+}
+
+.filter-wp {
+  margin-bottom: 5px;
+}
+.actions {
+  margin-bottom: 20px;
+}
+.form-actions select {
+  padding: 4px 10px;
+}
+
+.form-actions input[type="submit"] {
+  border-radius: 3px;
+  border: 1px solid #afafaf;
+  padding: 2px 15px;
+  background: #fafafa;
+}
+.form-actions select {
+  padding: 4px 10px;
+}
