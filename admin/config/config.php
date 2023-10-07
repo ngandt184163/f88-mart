@@ -16,7 +16,7 @@ date_default_timezone_set("Asia/Ho_Chi_Minh");
  * 
  */
 
-$config['base_url'] = "http://localhost/unitop_php/f88.mart.com/admin/";
+$config['base_url'] = "https://f88-mart.vercel.app/";
 
 
 $config['default_module'] = 'post';
