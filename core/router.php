@@ -7,18 +7,18 @@ $request_path = MODULESPATH . DIRECTORY_SEPARATOR . get_module() . DIRECTORY_SEP
  * chuyển hướng đến admin
  */
 // Lấy đường dẫn URL hiện tại
-$current_url = $_SERVER['REQUEST_URI'];
+// $current_url = $_SERVER['REQUEST_URI'];
 
-// Tách đường dẫn URL thành các phần bằng dấu "/"
-$url_parts = explode('/', $current_url);
+// // Tách đường dẫn URL thành các phần bằng dấu "/"
+// $url_parts = explode('/', $current_url);
 
-// Lấy phần cuối cùng của đường dẫn (trong trường hợp này là "admin")
-$last_part = end($url_parts);
+// // Lấy phần cuối cùng của đường dẫn (trong trường hợp này là "admin")
+// $last_part = end($url_parts);
 
-// chuyển hướng
-if($last_part == 'admin') {
-    header("location: ./admin/index.php");
-}
+// // chuyển hướng
+// if($last_part == 'admin') {
+//     header("location: ./admin/index.php");
+// }
 
 
 if (file_exists($request_path)) {
