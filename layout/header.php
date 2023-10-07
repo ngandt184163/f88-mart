@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="/css/bootstrap/bootstrap-theme.min.css" rel="stylesheet" type="text/css"/>
         <link href="/css/bootstrap/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-        <link href="/reset.css" rel="stylesheet" type="text/css"/>
+        <link href="css/reset.css" rel="stylesheet" type="text/css"/>
         <link href="/css/carousel/owl.carousel.css" rel="stylesheet" type="text/css"/>
         <link href="/css/carousel/owl.theme.css" rel="stylesheet" type="text/css"/>
         <link href="/css/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
@@ -30,7 +30,7 @@
         <link href="css/import/detail_order.css" rel="stylesheet" type="text/css"/>
         <!-- ===================== -->
 
-        <link href="/responsive.css" rel="stylesheet" type="text/css"/>
+        <link href="css/responsive.css" rel="stylesheet" type="text/css"/>
 
         <script src="/js/jquery-2.2.4.min.js" type="text/javascript"></script>
         

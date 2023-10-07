@@ -272,7 +272,7 @@ function addCart(base_url, is_login, url_login) {
             var item =
               '<li class="clearfix">' +
               '<a href="link-to-product" title="Product Title" class="thumb fl-left">' +
-              '<img src="public/images/' +
+              '<img src="/images/' +
               order["image"] +
               ' " alt="Product Image">' +
               "</a>" +
