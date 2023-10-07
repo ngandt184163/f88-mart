@@ -99,6 +99,6 @@
   background: #868686;
 }
 
-ul li.active_page a {
+ul li a.active_page {
   background-color: #f12a43;
 }
