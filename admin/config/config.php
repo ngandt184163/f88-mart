@@ -16,7 +16,7 @@ date_default_timezone_set("Asia/Ho_Chi_Minh");
  * 
  */
 
-$config['base_url'] = "https://f88-mart.vercel.app/";
+$config['base_url'] = "https://f88-mart.vercel.app/admin";
 
 
 $config['default_module'] = 'post';

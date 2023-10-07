@@ -11,7 +11,7 @@
         <link href="/css/carousel/owl.theme.css" rel="stylesheet" type="text/css"/>
         <link href="/css/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
 
-        <link href="/style.css" rel="stylesheet" type="text/css"/>
+        <!-- <link href="/style.css" rel="stylesheet" type="text/css"/> -->
 
         <!-- STYLE CSS -->
         <link href="css/import/fonts.css" rel="stylesheet" type="text/css"/>
