@@ -17,10 +17,10 @@
                         <p>106 - Trần Bình - Cầu Giấy - Hà Nội</p>
                     </li>
                     <li>
-                        <p>0987.654.321 - 0989.989.989</p>
+                        <p>0342.012.925</p>
                     </li>
                     <li>
-                        <p>vshop@gmail.com</p>
+                        <p>nhicaothu6677@gmail.com</p>
                     </li>
                 </ul>
             </div>

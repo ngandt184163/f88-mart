@@ -10,11 +10,23 @@ function get_product_by_id($product_id) {
     return $item;
 }
 
+// function get_list_best_sale() {
+//     $result = db_fetch_array("SELECT products.*, SUM(orders.total) AS total_sales
+//     FROM products
+//     JOIN orders ON products.product_id = orders.product_id
+//     GROUP BY products.product_id, products.name");
+//     return $result;
+// }
+
 function get_list_best_sale() {
     $result = db_fetch_array("SELECT products.*, SUM(orders.total) AS total_sales
     FROM products
     JOIN orders ON products.product_id = orders.product_id
-    GROUP BY products.product_id, products.name");
+    JOIN sales ON orders.sale_id = sales.sale_id
+    WHERE sales.status = 3
+    GROUP BY products.product_id, products.name
+    ORDER BY total_sales DESC
+    LIMIT 10");
     return $result;
 }
 
